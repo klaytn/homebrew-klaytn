@@ -1,7 +1,7 @@
 class Klaytn < Formula
   desc "Klaytn Blockchain Platform"
   homepage "https://docs.klaytn.com"
-  url "https://github.com/klaytn/klaytn.git", :tag => "v1.1.1"
+  url "https://github.com/klaytn/klaytn.git", :tag => "v1.2.0"
 
   head "https://github.com/klaytn/klaytn.git", :branch => "master"
 
