@@ -1,9 +1,9 @@
 class CaverJava < Formula
   desc "caver-java command line tools for Klaytn"
   homepage "https://docs.klaytn.com/sdk/caverjava"
-  url "https://github.com/klaytn/caver-java/releases/download/v1.0.0/caver-java.zip"
+  url "https://github.com/klaytn/caver-java/releases/download/v1.2.0/caver-java.zip"
 
-  sha256 "d651e152fb8f3855bcb0d1fe4615d541df8d04287d3bf3b324a93792ad42fef3"
+  sha256 "d09ee824b2527d9758104fc3653a8b179f58acf41333d4c98e56ba0befbe3199"
   depends_on :java => "1.8+"
 
   def install
