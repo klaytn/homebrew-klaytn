@@ -4,7 +4,7 @@ class CaverJava < Formula
   url "https://github.com/klaytn/caver-java/releases/download/v1.3.1/caver-java.zip"
 
   sha256 "7993fb566c69fc530e0c4090bfd807293b4823fd94347e88f2d3d1ff3353ff70"
-  depends_on :java => "1.8+"
+  depends_on "openjdk@8"
 
   def install
     prefix.install "lib"
