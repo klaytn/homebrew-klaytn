@@ -1,11 +1,11 @@
 class Klaytn < Formula
   desc "Klaytn Blockchain Platform"
   homepage "https://docs.klaytn.com"
-  url "https://github.com/klaytn/klaytn.git", :tag => "v1.5.3"
+  url "https://github.com/klaytn/klaytn.git", :tag => "v1.7.0"
 
   head "https://github.com/klaytn/klaytn.git", :branch => "master"
 
-  depends_on "go" => :build
+  depends_on "go@1.16" => :build
   depends_on :macos => :el_capitan
 
   def install
