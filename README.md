@@ -1,9 +1,9 @@
 # Homebrew Klaytn
 Klaytn-related formulae for the Homebrew package manager.
 
-## Installation
-```
-$ brew install <formula>
+## Setup
+```shell
+$ brew tap klaytn/klaytn
 ```
 
 ## References
